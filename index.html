@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Yang Peilan's Porforlio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "Noto Sans TC", sans-serif;
+      }
+      * {
+        box-sizing: borderbox;
+      }
+      body {
+        background-color: lightgreen;
+      }
+      #card {
+        width: 744px;
+        height: 528px;
+        background-color: white;
+        position: absolute;
+      }
+      #intro {
+        width: 220px;
+        height: 265px;
+        background-color: darkslategray;
+        position: absolute;
+        top: 244px;
+        left: 0px;
+        color: white; /*這是文字顏色*/
+        padding: 10px;
+      }
+      #about {
+        width: 400px;
+        height: 528px;
+        background-color: blueviolet;
+        position: absolute;
+        top: 0;
+        left: 238px;
+        padding-left: 10px;
+        color: white;
+      }
+      #about2 {
+        width: 300px;
+        height: 528px;
+        background-color: yellow;
+        position: absolute;
+        top: 0;
+        left: 568px;
+      }
+      h4 {
+        color: teal;
+      }
+      #job {
+        color: rgb(216, 16, 16);
+        font-family: "Noto Sans TC", sans-serif;
+      }
+      #cert {
+        display: none;
+      }
+      .block {
+        width: 138px;
+        height: 32px;
+        background-color: red;
+        position: absolute;
+        top: 0;
+      }
+      .left-text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 10px;
+      }
+      .right-text {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 10px;
+      }
+      .progress {
+        position: absolute;
+        bottom: 0;
+        width: 138px;
+        height: 12px;
+        background-color: gray;
+        border-radius: 6px;
+      }
+      .bar {
+        position: absolute;
+        top: 0;
+        left: 20px;
+        width: 60px;
+        height: 12px;
+        background-color: lightgreen;
+        border-radius: 6px;
+      }
+
+      .test {
+        color: rgb(18, 173, 135);
+        text-align: center;
+        text-shadow: 2px 4px 3px rgba(25, 0, 0, 0.3);
+      }
+      img {
+        margin: 0px;
+        object-fit: none;
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(function () {
+        // window.alert("把東西留下來才可以離開!")
+        $("h1").css("color", "red");
+        $("h1").click(function () {
+          $("#cert").fadein();
+        });
+      });
+    </script>
+    <script>
+      src = "https//kit.fontawesome.com/6debf59dce.js";
+      corssorigin = "anonymous";
+    </script>
+  </head>
+  <body>
+    <div id="card">
+      <img width="238" height="244" />
+      <div id="intro">
+        <h3>Peilan YANG</h3>
+        <p>Writer</p>
+        <p>Pianist</p>
+        <p>Wild Bird Oberver</p>
+      </div>
+      <div id="about">
+        <h4>Experience</h4>
+        <ul>
+          <li>Performace Marketing,Ogilvy Taiwan</li>
+          <li>Digital Marketing Manager, Carrefour Taiwan</li>
+          <li>Search Marketing Product Manager, Yahoo Taiwan</li>
+        </ul>
+        <h4>Skill</h4>
+        <ul>
+          <li>digital strategy</li>
+          <li>D</li>
+          <li>Se</li>
+        </ul>
+        <h4>Certification</h4>
+        <ul>
+          <li>Performace Marketing,Ogilvy Taiwan</li>
+          <li>Digital Marketing Manager, Carrefour Taiwan</li>
+          <li>Search Marketing Product Manager, Yahoo Taiwan</li>
+        </ul>
+      </div>
+      <div id="about2">
+        <div class="block">
+          <div class="left-text">內向</div>
+          <div class="right-text">外向</div>
+          <div class="progress">
+            <div class="bar"></div>
+          </div>
+        </div>
+        <div class="block2">
+          <div class="left-text">貓</div>
+          <div class="right-text">狗</div>
+          <div class="progress">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1>
+      YANG PEI LAN
+    </h1>
+  </body>
+</html>
